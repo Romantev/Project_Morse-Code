@@ -64,8 +64,10 @@ btn.addEventListener("click", () => {
           morseletter.morseCode
         }</p>               
                          </div>`;
-        document.querySelector("article").innerHTML = explanation;
+      } else {
+        explanation += "<br>";
       }
+      outputText.innerHTML = explanation;
     }
   });
 });

@@ -19,6 +19,8 @@ article {
   justify-content: center;
   align-items: center;
   overflow: scroll;
+  border: 3px solid black;
+  padding: 20px;
 }
 
 div {
@@ -30,6 +32,7 @@ div {
 
 h2 {
   margin-bottom: 10px;
+  text-align: center;
 }
 
 div p {
